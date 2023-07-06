@@ -1,0 +1,31 @@
+*{
+    margin : 0px;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+
+}
+
+main{
+    margin: auto;
+    background-color: blueviolet;
+    width: 1200px;
+    height: 5000px;
+}
+.container-home{
+    background-color: blue;
+    height: 500px;
+}
+
+.container-product{
+    background-color: aqua;
+    height: 300px;
+}
+
+.container-about{
+    background-color: coral;
+    display: flex;
+}
