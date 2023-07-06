@@ -4,11 +4,15 @@
 
 
 header{
-    display: flex;
-    justify-content: center;
     background-color: #1a222c;
     border-bottom: 8px #59c6f1 solid;
+    position: fixed;
+    width: 100%;
+}
 
+.head-container{
+    display: flex;
+    justify-content: center;
 }
 
 .header-logo{
@@ -17,7 +21,7 @@ header{
 }
 
 .header-logo h1{
-    font-family: Barlow Condensed;
+    font-family: Fasthand;
     font-size: 70px;
     color: #59c6f1;
 
@@ -25,34 +29,86 @@ header{
 
 nav a{
     display:inline-block;
-    margin: 20px;
+    margin: 10px;
+    padding: 10px;
     font-family: Barlow;
     font-size: 16px;
     font-weight: bold;
     color: white;
 }
 
+nav a:hover{
+    background-color: white;
+    color: #1a222c;
+}
+
 main{
+
     background-color: blueviolet;
     height: 5000px;
 }
 .container-home{
-    height: 500px;
+    height: 760px;
     background-image: url("../img/baghead1.jpg");
     background-size: cover;
+    background-position: 20% 20% ;
+    display: flex;
+    justify-content: center;
 }
 .home-menu-container{
     width: 1200px;
-    margin: auto;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: flex-end;
+}
+
+.home-menu-container h3{
+    font-family: Barlow Condensed;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    padding: 10px 25px;
+    margin-bottom: 80px;
+    font-family: Satisfy;
+    border: 2px white solid;
+}
+.home-menu-container h3:hover{
+    font-family: Barlow Condensed;
+    color: white;
+    background: rgba(0, 0, 0, .4);
+    padding: 10px 25px;
+    margin-bottom: 80px;
+    font-family: Satisfy;
+    border: 2px white solid;
 }
 
 .container-product{
-    background-color: aqua;
-    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 700px;
 }
+
+
+.product{
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.product-tittle{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.product-list{
+    height: 100%;
+    background-color: blueviolet;
+}
+
 
 .container-about{
     background-color: coral;
