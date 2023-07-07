@@ -1,5 +1,7 @@
 *{
     margin : 0px;
+    scrollbar-color: #59c6f1 #1a222c;
+    scrollbar-width: thin;
 }
 
 
@@ -13,6 +15,7 @@ header{
     /*background-color: #59c6f1;*/
     color: crimson;
     border-radius: 20px;
+    text-decoration: underline 3px;
 }
 
 .header-logo .dot{
@@ -21,6 +24,9 @@ header{
     border-radius: 20px;
 }
 
+.header-logo .non{
+    text-decoration: line-through;
+}
 
 .head-line{
     width: 100%;

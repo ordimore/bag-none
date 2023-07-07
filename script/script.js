@@ -14,9 +14,7 @@ function show_more_item(){
             <div class="product-harga">
                 <p>IDR 440.000,00</p>
             </div>
-            <div class="product-buy-menu">
-                <button>-</button><p>1</p><button>+</button>
-            </div>
+             
             <div class="product-buy-button">
             <p>BUY NOW</p>
             </div>
@@ -31,9 +29,7 @@ function show_more_item(){
             <div class="product-harga">
                 <p>IDR 435.000,00</p>
             </div>
-            <div class="product-buy-menu">
-                <button>-</button><p>1</p><button>+</button>
-            </div>
+             
             <div class="product-buy-button">
             <p>BUY NOW</p>
             </div>
@@ -48,9 +44,7 @@ function show_more_item(){
             <div class="product-harga">
                 <p>IDR 856.000,00</p>
             </div>
-            <div class="product-buy-menu">
-                <button>-</button><p>1</p><button>+</button>
-            </div>
+             
             <div class="product-buy-button">
             <p>BUY NOW</p>
             </div>
@@ -65,9 +59,7 @@ function show_more_item(){
             <div class="product-harga">
                 <p>IDR 964.000,00</p>
             </div>
-            <div class="product-buy-menu">
-                <button>-</button><p>1</p><button>+</button>
-            </div>
+             
             <div class="product-buy-button">
             <p>BUY NOW</p>
             </div>
