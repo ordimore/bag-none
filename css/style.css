@@ -71,8 +71,6 @@ nav a:hover{
 
 main{
 
-    background-color: blueviolet;
-    height: 5000px;
 }
 .container-home{
     height: 760px;
@@ -250,11 +248,69 @@ main{
 
 
 .container-about{
-    background-color: coral;
+
     display: flex;
+    justify-content: center;
+    background-color: #1a222c;
 }
 
-aside{
-    background-color: grey;
+.about{
+    width: 1200px;
+    display: flex;
+
+}
+.about-content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.about .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 30px 0px;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+
+.about p{
+    font-family: Fira Sans ;
+    font-weight: normal;
+}
+
+.card h1{
+    margin-bottom: 30px;
+    font-family: Satisfy;
+
+}
+
+.card p{
+    font-size: larger;
+    margin-top: 10px;
+}
+
+aside h1{
+    font-family: Yanone Kaffeesatz;
+    font-style: normal;
+}
+
+aside {
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-style: italic;
+    color: black;
+    background-color:#59c6f1;
+  }
+
+footer{
+    height: 200px;
+    background-color: #59c6f1;
 }
