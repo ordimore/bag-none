@@ -72,7 +72,7 @@ nav a:hover{
 
 .container-home{
     height: 760px;
-    background-image: url("../img/BagHead.jpg");
+    background-image: url("../img/baghead.jpg");
     background-size: cover;
     background-position: 20% 20% ;
     display: flex;
