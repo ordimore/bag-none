@@ -245,8 +245,57 @@ main{
     font-family: Yanone Kaffeesatz;
 }
 
+.container-store{
+    display: flex;
+    justify-content: center;
+    
+}
 
+.container-store-content{
+    width: 1200px;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 
+.gmap {
+    height: 300px;
+}
+
+.store-map{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.store-desc{
+    width: 40%;
+    height: 100%;
+}
+
+.store-desc h1{
+    font-family: Caveat ;
+    margin-bottom: 3%;
+}
+
+.store-desc p{
+    font-family: Raleway ;
+    font-size: small;
+    font-weight: normal;
+    margin: 20px 0px
+}
+
+.kota-container{
+    display: flex;
+}
+
+.kota{
+    width: 50%;
+}
+
+.kota h3{
+    margin-top: 10%;
+    font-family: Questrial;
+}
 .container-about{
 
     display: flex;
@@ -260,24 +309,30 @@ main{
 
 }
 .about-content{
-    width: 70%;
+    width: 64%;
     display: flex;
     flex-direction: column;
-
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 
 .about .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    margin: 30px 0px;
-    padding: 10px;
-    background-color: #f5f5f5;
+    margin: 2% 0px;
+    padding: 5%;
+    background-color: #ebebeb;
 }
 
 
 .about p{
-    font-family: Fira Sans ;
+    font-family: Raleway ;
+    font-size: small;
     font-weight: normal;
 }
 
@@ -285,6 +340,8 @@ main{
     margin-bottom: 30px;
     font-family: Satisfy;
     color: crimson;
+    padding-bottom: 2%;
+    border-bottom: 1px solid crimson;
 }
 
 .card p{
@@ -293,8 +350,10 @@ main{
 }
 
 aside h1{
-    font-family: Yanone Kaffeesatz;
-    font-style: normal;
+    font-family: Caveat;
+    font-size: 200% ;
+    font-style: normal !important;
+    margin-bottom: 10%;
 }
 
 aside {
@@ -303,14 +362,117 @@ aside {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
     margin-left: 15px;
-    font-style: italic;
     color: #f5f5f5;
     background-color:#1a222c;
   }
 
+aside img{
+    margin-bottom: 16%;
+}
+
+aside p{
+    font-style: italic;
+    margin-bottom: 6%;
+}
+
 footer{
-    height: 200px;
     background-color: #1a222c;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-detail{
+    display: flex;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.footer-detail-content{
+    width: 25%;
+    color: #f5f5f5;
+    margin-bottom: 50px;
+/*     background-color: chartreuse;
+    border: 4px red solid; */
+}
+
+.footer-detail-content h2{
+    font-family: Yanone Kaffeesatz;
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+
+
+.footer-detail-content p{
+    font-family: barlow;
+    margin-bottom: 2%;
+}
+
+.footer-email-input{
+    background-color: #1a222c;
+    border: 2px solid #f5f5f5;
+    border-radius: 3px;
+    width: 100%;
+    height: 25px;
+    margin-top: 5%;
+    color: #f5f5f5;
+    font-family: barlow;
+    padding-left: 13%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: medium;
+    outline: none;
+}
+
+.header-logo-foot {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-detail-end{
+    display: flex;
+}
+
+.footer-detail-end-content{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+/*     border: 4px red solid;
+    background-color: aqua; */
+}
+
+.footer-detail-end-content p{
+    font-family: barlow;
+    color: #b8b8b8;
+    font-size: 14px;
+}
+.ordimor{
+    font-weight: bolder;
+
+}
+
+.facebook {
+    color: #385490 !important;
+}
+
+.twitter{
+    color: #1c99e6 !important;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.youtube{
+    color: #f20000 !important;
 }
