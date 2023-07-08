@@ -90,24 +90,34 @@ nav a:hover{
     display: flex;
     justify-content: center;
 }
+
+
+
 .home-menu-container{
     width: 1200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
-.home-menu-container h3{
-    font-family: Barlow Condensed;
+.home-menu-container h1{
+    font-family: Caveat;
+    color: #f5f5f5;
+    font-size: 650%;
+}
+
+.home-menu-container a{
     color: white;
     background-color: rgba(0, 0, 0,.7);
     padding: 10px 25px;
-    margin-bottom: 50px;
-    font-family: Satisfy;
-    border: 2px white solid;
-    border-radius: 10px;
+    font-family: Yanone Kaffeesatz;
+    border: 3px white solid;
+    border-radius: 3px;
+    font-size: 200%;
+    margin-top: 10%;
 }
-.home-menu-container h3:hover{
+/* .home-menu-container h3:hover{
     font-family: Barlow Condensed;
     color: white;
     background-color: rgba(0, 0, 0, 1);
@@ -115,7 +125,7 @@ nav a:hover{
     margin-bottom: 50px;
     font-family: Satisfy;
     border: 2px white solid;
-}
+} */
 
 .product-show-button{
     display: flex;
