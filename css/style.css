@@ -69,12 +69,10 @@ nav a:hover{
     color: #1a222c;
 }
 
-main{
 
-}
 .container-home{
     height: 760px;
-    background-image: url("../img/baghead1.jpg");
+    background-image: url("../img/BagHead.jpg");
     background-size: cover;
     background-position: 20% 20% ;
     display: flex;
@@ -275,6 +273,8 @@ main{
 .store-desc h1{
     font-family: Caveat ;
     margin-bottom: 3%;
+    padding-bottom: 3%;
+    border-bottom: 3px solid crimson;
 }
 
 .store-desc p{
