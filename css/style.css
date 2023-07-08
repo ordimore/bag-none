@@ -3,7 +3,18 @@
     scrollbar-color: #59c6f1 #1a222c;
     scrollbar-width: thin;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
+
+  a:link { text-decoration: none; }
+
+  a:visited { text-decoration: none; }
+  
+  a:hover { text-decoration: none; }
+  
+  a:active { text-decoration: none; }
 
 header{
     background-color: #1a222c;
@@ -62,6 +73,7 @@ nav a{
     font-size: 16px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
 nav a:hover{
@@ -419,7 +431,7 @@ footer{
     background-color: #1a222c;
     border: 2px solid #f5f5f5;
     border-radius: 3px;
-    width: 100%;
+    width: auto;
     height: 25px;
     margin-top: 5%;
     color: #f5f5f5;
