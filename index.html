@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow Condensed">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fasthand">
@@ -16,7 +17,7 @@
     <title>Bagnon - All about bag in one addon</title>
 </head>
 <body>
-<header>
+<header id="header-menu">
     <div class="head-container">
     <nav>
         <a href="#home-menu">HOME</a>
@@ -24,7 +25,7 @@
         <a href="#about-menu">ABOUT</a>
     </nav>
     <div class="header-logo">
-        <h1><span class="bag">Bag</span><span class="dot">.</span><span class="non">NON</span></h1>
+        <a href="#home-menu"><h1><span class="bag">Bag</span><span class="dot">.</span><span class="non">NON</span></h1></a>
     </div>
     <nav>
         <a href="#store-menu">STORE</a>
@@ -224,12 +225,12 @@
                 <p>Dimanapun anda berada ayo segera Temukan toko offline kami di kota anda</p>
                 <div class="kota-container">
                 <div class="kota">
-                        <h3 class="kota">♦ Yogyakarta</h3>
-                        <h3 class="kota">♦ Jakarta</h3>
+                        <h3 >♦ Yogyakarta</h3>
+                        <h3 >♦ Jakarta</h3>
                     </div>
                     <div class="kota">
-                        <h3 class="kota">♦ Semarang</h3>
-                        <h3 class="kota">♦ Surabaya</h3>
+                        <h3 >♦ Semarang</h3>
+                        <h3 >♦ Surabaya</h3>
                     </div>
                 </div>
                 </div>
@@ -240,19 +241,19 @@
 <footer>
     <div id="footer-menu" class="footer-container">
         <div class="footer-detail">
-            <div class="footer-detail-content">
+            <div id="foot1" class="footer-detail-content">
                 <div class="header-logo-foot header-logo">
                     <h1><span class="bag">Bag</span><span class="dot">.</span><span class="non">NON</span></h1>
                 </div>
             </div>
-            <div class="footer-detail-content">
+            <div id="foot2" class="footer-detail-content">
                 <h2>BAGNON</h2>
                 <p>PRODUCT</p>
                 <p>ABOUT</p>
                 <p>STORE</p>
                 <p>CONTACT US</p>
             </div>
-            <div class="footer-detail-content">
+            <div id="foot3" class="footer-detail-content">
                 <h2>BANTUAN</h2>
                 <p>KONTAK</p>
                 <p>PRIVACY POLICY</p> 
@@ -260,7 +261,7 @@
                 <p>RETUR BARANG</p>    
                 <p>REFUND</p>   
             </div>
-            <div class="footer-detail-content">
+            <div id="foot4" class="footer-detail-content">
                 <h2>JOIN BAGNON COMMUNITY</h2>
                 <p>GABUNG DAN DAPATKAN INFORMASI DISKON, STOK BARU, DAN HAL MENARIK LAINNYA</p>
                 <input class ="footer-email-input"type="text" placeholder="Masukkan email">
