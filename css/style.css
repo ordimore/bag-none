@@ -134,13 +134,20 @@ nav a:hover{
 
 #show-item{
     margin-bottom: 3rem;
-    color: whitesmoke;
-    background-color: black;
+    color: #f5f5f5;
+    background-color: #1a222c;
     padding: 10px 25px;
     font-family: Yanone Kaffeesatz;
+    font-weight: bold;
     border: 2px white solid;
     border-radius: 10px;
     font-size: x-large;
+    cursor: pointer;
+}
+
+#show-item:hover{
+    color: #1a222c;
+    background-color: #59c6f1;
 }
 
 
@@ -485,6 +492,24 @@ footer{
 
 }
 
+.footer-detail-end-content a:link{
+    color: #b8b8b8;
+
+}
+.footer-detail-end-content a:visited{
+    color: #b8b8b8;
+
+}
+.footer-detail-end-content a:hover{
+    color: #b8b8b8;
+
+}
+.footer-detail-end-content a:active{
+    color: #b8b8b8;
+
+}
+
+
 .facebook {
     color: #385490 !important;
 }
@@ -497,4 +522,42 @@ footer{
 
 .youtube{
     color: #f20000 !important;
+}
+
+
+.product-buy-button p{
+    cursor: pointer;
+}
+
+.product-buy-button p:hover{
+    background-color: #1a222c;
+    color: #f5f5f5;
+}
+
+.footer-detail-content a:link{
+    color: #f5f5f5;
+
+}
+.footer-detail-content a:visited{
+    color: #f5f5f5;
+
+}
+.footer-detail-content a:hover{
+    color: #f5f5f5;
+
+}
+.footer-detail-content a:active{
+    color: #f5f5f5;
+
+}
+.burgerbar{
+    display: none;
+}
+
+.burgerbar-icon{
+    display: none;
+}
+
+.head-nav-mobile{
+    display: none;
 }

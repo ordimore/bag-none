@@ -1,5 +1,7 @@
 let btn_show = document.getElementById("show-item");
 let row3 = document.getElementById("product-row3");
+let navmobile = document.getElementById("nav-mobile");
+let burgerbar = document.getElementById("burgerbebe");
 
 function show_more_item(){
     row3.innerHTML = 
@@ -77,3 +79,13 @@ function show_less_item(){
     btn_show.setAttribute('onclick','show_more_item()');
 }
 
+
+function displaynav(){
+    navmobile.style.display = "flex";
+    burgerbar.setAttribute('onclick','displaynonav()');
+}
+
+function displaynonav(){
+    navmobile.style.display = "none";
+    burgerbar.setAttribute('onclick','displaynav()');
+}
